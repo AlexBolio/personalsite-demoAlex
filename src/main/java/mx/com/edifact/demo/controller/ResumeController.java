@@ -1,12 +1,15 @@
 package mx.com.edifact.demo.controller;
 
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
 /**
  *
  * @author ITIC Roger Azcorra Novelo [RJAN]
  */
-public class ResumeController {
+
+ @Controller
+ public class ResumeController {
 
     @GetMapping("/resume")
     public String index() {
